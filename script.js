@@ -27,22 +27,20 @@ async function checkWeather(city) {
     if (weather_data.cod === '404') {
       // Show error message and hide weather information
       location_not_found.style.display = 'flex';
-      // weather_details.style.display='none';
-      // details.style.display='none';
-      // hourly.style.display='none';
-      // hourly_forecast.style.display='none';
   main.style.display='none';
+      function setFocus(){
+      input.focus();
+    }
    return;
     }
 
 
      // Reset the display to show weather information
      location_not_found.style.display = 'none';
-    //  weather_details.style.display='flex';
-    //  details.style.display='flex';
-    //  hourly.style.display='flex';
-    //  hourly_forecast.style.display='flex';
     main.style.display='flex';
+    function setFocus(){
+      input.focus();
+    }
 
 
     temp.innerText = `${Math.round(weather_data.list[0].main.temp-273.15)}°C`;
