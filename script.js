@@ -171,7 +171,7 @@ async function checkWeather(city) {
 
 search.addEventListener("click", () => {
 
-  if(search_input.value=='')
+  if(input.value=='')
     alert('please enter your city name')
   else{
     const city = search_input.value;
