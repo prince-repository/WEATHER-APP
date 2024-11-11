@@ -171,12 +171,12 @@ async function checkWeather(city) {
 
 search.addEventListener("click", () => {
 
-  // if(search_input.value=='')
-  //   alert('please enter your city name')
-  // else{
-  //   const city = search_input.value;
-  //   checkWeather(city);
-  // }
-  const city = input.value;
-  checkWeather(city);
+  if(search_input.value=='')
+    alert('please enter your city name')
+  else{
+    const city = search_input.value;
+    checkWeather(city);
+  }
+  // const city = input.value;
+  // checkWeather(city);
 });
