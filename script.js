@@ -173,4 +173,5 @@ search.addEventListener("click", () => {
   } else {
     checkWeather(city);
   }
+ input.focus();
 });
