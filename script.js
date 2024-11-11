@@ -28,9 +28,7 @@ async function checkWeather(city) {
       // Show error message and hide weather information
       location_not_found.style.display = 'flex';
   main.style.display='none';
-      function setFocus(){
-      input.focus();
-    }
+     
    return;
     }
 
@@ -38,9 +36,7 @@ async function checkWeather(city) {
      // Reset the display to show weather information
      location_not_found.style.display = 'none';
     main.style.display='flex';
-    function setFocus(){
-      input.focus();
-    }
+   
 
 
     temp.innerText = `${Math.round(weather_data.list[0].main.temp-273.15)}°C`;
