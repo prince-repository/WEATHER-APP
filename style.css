@@ -49,6 +49,7 @@ border-radius:10px ;
   background-color: rgba(0, 0, 0, 0.3);
   color: black;
   /* background-color:white; */
+  cursor:text;
 }
 #input::placeholder{
   color: black;
