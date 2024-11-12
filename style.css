@@ -83,7 +83,6 @@ padding-top: 10px;
 .header{
   height: 50px;
   width: 100%;
-  border: 1px solid black;
   position: relative;
   display: flex;
   justify-content: center;
@@ -110,6 +109,10 @@ border-radius: 20px;
   color: aqua;
   color: blue;
   margin-left: 10px;
+  cursor: pointer;
+      }
+      #search:hover{
+        color:red;
       }
 
       #location{
