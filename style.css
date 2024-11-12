@@ -27,19 +27,16 @@ background-color: rgba(0, 0, 0, 0.2);
 border: 2px solid white;
 border-radius:10px ;
 }
-.header{
+/* .header{
   height: 70px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  /* border: 1px solid black; */
 }
 #input{
-  /* background-color: burlywood; */
-  display: flex;
-  justify-content: center;
+
   height: 40px;
   width: 80%;
   outline: none;
@@ -48,13 +45,15 @@ border-radius:10px ;
   border-radius: 20px;
   background-color: rgba(0, 0, 0, 0.3);
   color: black;
-  /* background-color:white; */
-  cursor:text;
+
+  cursor:grab;
+
+
+  
 }
 #input::placeholder{
   color: black;
   text-transform: capitalize;
-  /* color: white; */
 }
 
 #search{
@@ -65,20 +64,62 @@ width: 20px;
 cursor: pointer;
 width: 40px;
 height: 35px;
-/* background-color: white; */
 border-radius: 30px;
 padding-top: 10px;
 
 }
 #search:hover{
   color:red;
-  /* background-color:gold; */
 }
 #location{
   color: blue;
   position:absolute;
   padding-right: 330px;
+} */
+
+
+/* new input  */
+
+.header{
+  height: 50px;
+  width: 100%;
+  border: 1px solid black;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
+#input{
+height: 30px;
+width: 80%;
+border: none;
+outline: none;
+padding-left: 50px;
+background-color: rgba(0, 0, 0, 0.3);
+border-radius: 20px;
+      }
+      #input::placeholder{
+        color: black;
+        text-transform: capitalize;
+      }
+      
+
+      #search{
+  font-size: larger;
+  color: aqua;
+  color: blue;
+  margin-left: 10px;
+      }
+
+      #location{
+        position: absolute;
+        color: blue;
+        margin-right: 300px;
+      }
+
+
+/* end */
 
 .weather-details{
   height: 220px;
