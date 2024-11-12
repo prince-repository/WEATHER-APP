@@ -24,7 +24,6 @@ body{
 /* background-color:lightpink; */
 background-color: rgba(0, 0, 0, 0.2);
 /* background: linear-gradient(to bottom , aqua,lightpink 80%); */
-border: 2px solid white;
 border-radius:10px ;
 }
 /* .header{
